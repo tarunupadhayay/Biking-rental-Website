@@ -1,0 +1,565 @@
+.banner{
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+
+.bar{
+    background-color: #65dca2;
+    color: #65dca2;
+    width: 5%;
+    height: 0.5rem;
+    position: absolute;
+    top:13rem;
+    left: 3rem;
+}
+
+
+.w1{
+    position: absolute;
+    top:15.25rem;
+    left:3rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.w12{
+    position: absolute;
+    top:17.85rem;
+    left:3rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.w13{
+    position: absolute;
+    top:20.5rem;
+    left:3rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.w2{
+    position: absolute;
+    top:25.25rem;
+    left:3rem;
+    /* font-weight: bolder; */
+    /* font-size: 50px; */
+}
+
+.w21{
+    position: absolute;
+    top:26.25rem;
+    left:3rem;
+    /* font-weight: bolder; */
+    /* font-size: 50px; */
+}
+
+.banner-btn{
+    position: absolute;
+    top:30.5rem;
+    left:3rem;
+    /* font-weight: bold; */
+    background-color: #65dca2;
+    border: none;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: azure;
+}
+
+.second{
+   position: absolute;
+    width: 35rem;
+    height: 33rem;
+    top: 45rem;
+    left: 7rem;
+}
+
+.banner-second{
+    height: 43rem;
+}
+
+.bar-second{
+    background-color: #65dca2;
+    color: #65dca2;
+    width: 5%;
+    height: 0.5rem;
+    position: absolute;
+    top:50.75rem;
+    left: 56rem;
+}
+
+
+.s1{
+    position: absolute;
+    top:53rem;
+    left: 56rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.s12{
+    position: absolute;
+    top:55.75rem;
+    left:56rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.s13{
+    position: absolute;
+    top:58.5rem;
+    left: 56rem;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.s2{
+    position: absolute;
+    top:63rem;
+    left: 56rem;
+    /* font-weight: bolder; */
+    /* font-size: 50px; */
+}
+
+.s21{
+    position: absolute;
+    top:64.25rem;
+    left: 56rem;
+    /* font-weight: bolder; */
+    /* font-size: 50px; */
+}
+
+.banner-second-btn{
+    position: absolute;
+    top:66.95rem;
+    left: 56rem;
+    /* font-weight: bold; */
+    background-color: #65dca2;
+    border: none;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: azure;
+}
+
+.sub{
+    position: absolute;
+    top:66.95rem;
+    left: 67rem;
+    background-color: white;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: grey;
+    border-color: grey;
+}
+
+.banner-third{
+    /* position: absolute; */
+    top: 83.75rem;
+    height: 35rem;
+    background-color: transparent;
+    background-image: url(https://template101735.motopreview.com/mt-demo/101700/101735/mt-content/uploads/2020/05/mt-2022-home-bg-2.jpg);
+    width: 100%;
+}
+
+.bar-third{
+    background-color: #65dca2;
+    color: #65dca2;
+    width: 5%;
+    height: 0.5rem;
+    position: absolute;
+    top: 86.75rem;
+    left: 3rem;
+}
+
+.t1{
+    position: absolute;
+    top: 88.75rem;
+    left: 3rem;
+    font-weight: bolder;
+    font-size: 83px;
+    color: white;
+}
+
+.t12{
+    position: absolute;
+    top: 93.25rem;
+    left: 3rem;
+    font-weight: bolder;
+    font-size: 83px;
+    color: white;
+}
+
+.t2{
+    position: absolute;
+    top: 102.75rem;
+    left: 3rem;
+    font-size: 20px;
+    color: white;
+}
+
+.t21{
+    position: absolute;
+    top: 104.2rem;
+    left: 3rem;
+    font-size: 20px;
+    color: white;
+}
+
+.banner-third-btn{
+    position: absolute;
+    top: 109.25rem;
+    left: 3rem;
+    /* font-weight: bold; */
+    background-color: #65dca2;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: azure;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+}
+
+.DayClock{
+    position: absolute;
+    color: white;
+    top: 87.75rem;
+    left: 70.5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.hourClock{
+    position: absolute;
+    color: white;
+    top: 87.75rem;
+    left: 47rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.weekClock{
+    position: absolute;
+    color: white;
+    top: 101.75rem;
+    left: 47rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.monthClock{
+    position: absolute;
+    color: white;
+    top: 101.95rem;
+    left: 70.5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.tim-hour{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 92.5rem;
+    left: 47rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.rate{
+    margin-left: 0.5rem;
+    color: #65dca2;
+}
+
+.hour{
+    position: absolute;
+    color: white;
+    font-size: large;
+    left:47rem;
+}
+
+.h1{
+    top: 95.75rem;
+}
+
+
+.h2{
+    top: 97rem;
+}
+
+.tim-day{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 92.5rem;
+    left: 70.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.day{
+    position: absolute;
+    color: white;
+    font-size: large;
+    left: 70.5rem;
+}
+
+.d1{
+    top: 95.75rem;
+}
+
+
+.d2{
+    top: 97rem;
+}
+
+
+.tim-week{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 106.5rem;
+    left: 47rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+
+.week{
+    position: absolute;
+    color: white;
+    font-size: large;
+    left: 47rem;
+}
+
+.week1{
+    top: 109.75rem;
+}
+
+
+.week2{
+    top: 111rem;
+}
+
+.tim-month{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 106.5rem;
+    left: 70.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.month{
+    position: absolute;
+    color: white;
+    font-size: large;
+    left: 70.5rem;
+}
+
+.m1{
+    top: 109.75rem;
+}
+
+
+.m2{
+    top: 111rem;
+}
+
+.banner-fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: auto;
+    /* background-color: wheat; */
+}
+
+.fourth{
+    /* background-color: black; */
+    /* color: aqua; */
+    height: 30rem;
+    width: 100%;
+}
+
+.bar-fourth{
+    background-color: #65dca2;
+    color: #65dca2;
+    width: 5%;
+    height: 0.5rem;
+    position: absolute;
+    top: 123.75rem;
+    left: 3rem;
+}
+
+.f1{
+    position: absolute;
+    top: 125.25rem;
+    left: 3rem;
+    font-weight: bolder;
+    font-size: 83px;
+}
+
+.f2{
+    position: absolute;
+    top: 129.5rem;
+    left: 3rem;
+    font-weight: bolder;
+    font-size: 83px;
+}
+
+.banner-fourth-btn{
+    position: absolute;
+    top: 140.75rem;
+    left: 3rem;
+    /* font-weight: bold; */
+    background-color: #65dca2;
+    border: none;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: azure;
+}
+
+.cycleItem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: black; */
+    position: absolute;
+    top: 123.75rem;
+    left: 37rem;
+    /* height: 22rem; */
+    width: 55rem;
+}
+
+/* .Bicycle1{
+    
+} */
+
+.Bicycle2{
+    height: 20rem;
+    width: 15rem;
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 30px 0px rgba(53,54,55,0.2);
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.Bicycle3{
+    height: 20rem;
+    width: 15rem;
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 30px 0px rgba(53,54,55,0.2);
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.Bicycle4{
+    height: 20rem;
+    width: 15rem;
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 30px 0px rgba(53,54,55,0.2);
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.image2{
+    height: 12rem;
+    width: 15rem;
+}
+.image3{
+    height: 12rem;
+    width: 15rem;
+}
+.image4{
+    height: 12rem;
+    width: 13rem;
+}
+
+.fouth-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.75rem;
+}
+
+.bigtext{
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.smalltext{
+    font-size: 0.85rem;
+}
+
+.bikerate{
+    margin-top: 1rem;
+    font-size: 1.20rem;
+}
+
+.cycle-btn{
+    position: absolute;
+    margin-left: 3.65rem;
+    margin-top: -1.35rem;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #65dca2;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.banner-fifth{
+    background-image: url(../images/fifth_background.jpg);
+    display: flex;
+    width: 100%;
+    height: 37rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.fifth_post{
+    position: absolute;
+    height: 31rem;
+    width: 28rem;
+    margin-top: 1.6rem;
+}

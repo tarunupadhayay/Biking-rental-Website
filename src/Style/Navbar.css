@@ -1,0 +1,38 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+    /* background-color: black; */
+    /* justify-self: flex-start; */
+    justify-content: space-around;
+    color: azure;
+    height: 6rem;
+    width: 100%;
+    position: absolute;
+    top: 4px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 19px;
+    position: relative;
+    top: -1rem;
+}
+
+.li{
+    align-self: center;
+    cursor: pointer;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    /* display: flex; */
+    justify-content: start;
+    margin-right: 47rem;
+}
