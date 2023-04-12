@@ -5,11 +5,16 @@ import Second from '../images/homepage-second-banner.jpg';
 import image2 from '../images/b2.jpg';
 import image3 from '../images/b3.png';
 import image4 from '../images/b4.jpg';
+// import image1 from '../images/5back.jpg'
 import '../Style/home.css';
 import {RxCounterClockwiseClock} from 'react-icons/rx';
 import {ImClock} from 'react-icons/im';
 import {CgSandClock} from 'react-icons/cg';
 import {BsCalendar3} from 'react-icons/bs';
+import {FaPercent} from 'react-icons/fa';
+import {BsBicycle} from 'react-icons/bs';
+import {AiOutlineMessage} from 'react-icons/ai';
+import {GoLocation} from 'react-icons/go';
 // import fifth_background from '../images/fifth_background.jpg';
 
 export default function Homepage() {
@@ -127,7 +132,44 @@ export default function Homepage() {
           </div>
       </div>
       <dov className="banner-fifth">
-        <img src={image3} alt="no" className='fifth_post'/>
+        <img src="https://template101735.motopreview.com/mt-demo/101700/101735/mt-content/uploads/2020/05/home-img-5.png" alt="Bicycle Wonderful @transparentpng.com" className='fifth_post'/>
+        <div className="bar-fifth"></div>
+        <div className="fi1">WHY</div>
+        <div className="fi2">BIKING</div>
+        <div className="fifth-content">
+          <div className="fifth-part-1">
+            <div className="content">
+              <FaPercent className='fifth-icon'/>
+              <div className="content-heading">
+                Low Prices
+              </div>
+              <p className='details'>We provide affordable prices for renting bikes.</p>
+            </div>
+            <div className="content">
+              <AiOutlineMessage className='fifth-icon'/>
+              <div className="content-heading">
+                Good Support
+              </div>
+              <p className='details'>Pick up and return bicycle at our spot easily.</p>
+            </div>
+          </div>
+          <div className="fifth-part-2">
+            <div className="content">
+              <BsBicycle className='fifth-icon'/>
+              <div className="content-heading">
+                New Bicycle
+              </div>
+              <p className='details'>We lease new bicycles for your comfort.</p>
+            </div>
+            <div className="content">
+              <GoLocation className='fifth-icon'/>
+              <div className="content-heading">
+                Convenient location
+              </div>
+              <div className='details'>Our maain station is located in the center of the city.</div>
+            </div>
+          </div>
+        </div>
       </dov>
     </div>
   )
