@@ -38,6 +38,7 @@
 .ti{
     align-self: center;
     cursor: pointer;
+    gap: -1em;
 }
 
 .ti:hover{
@@ -57,9 +58,9 @@
 .pages-new{
     display: flex;
     flex-direction: row;
-    width: 99.5%;
-    justify-content: space-evenly;
-    gap: 1.5em;
+    width: 100%;
+    justify-content: center;
+    gap: 3.5em;
     font-weight: 500;
     font-size: 19px;
     position: sticky;
