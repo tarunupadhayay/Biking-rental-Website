@@ -70,12 +70,28 @@
     color: azure;
 }
 
+.banner-btn:hover{
+    background-color: transparent;
+    color: #090000;
+    border: 1px solid #040000;
+    /* border: 12px;
+    border-color: #090000; */
+    /* border-width: 2px; */
+}
+
 .second{
    position: absolute;
     width: 35rem;
     height: 33rem;
     top: 45rem;
     left: 7rem;
+    background-color: #ffffff;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.2);
 }
 
 .banner-second{
@@ -148,7 +164,13 @@
     color: azure;
 }
 
-.sub{
+.banner-second-btn:hover{
+    color: grey;
+    border: 2px solid grey;
+    background-color: transparent;
+}
+
+.subc{
     position: absolute;
     top:66.95rem;
     left: 67rem;
@@ -160,6 +182,12 @@
     cursor: pointer;
     color: grey;
     border-color: grey;
+}
+
+.subc:hover{
+    background-color: #65dca2;
+    border: none;
+    color: azure;
 }
 
 .banner-third{
@@ -228,6 +256,12 @@
     font-size: large;
     height: 3rem;
     width: 10rem;
+}
+
+.banner-third-btn:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: transparent;
 }
 
 .DayClock{
@@ -442,6 +476,12 @@
     color: azure;
 }
 
+.banner-fourth-btn:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
 .cycleItem{
     display: flex;
     justify-content: space-evenly;
@@ -538,8 +578,8 @@
 
 .cycle-btn{
     position: absolute;
-    margin-left: 3.65rem;
-    margin-top: -1.35rem;
+    margin-left: 10.65rem;
+    margin-top: -1.45rem;
     font-size: 20px;
     background-color: transparent;
     border: none;

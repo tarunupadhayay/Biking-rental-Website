@@ -40,7 +40,7 @@ export default function Homepage() {
             <div className="s2">We are cycling enthusiasts, fall in love with our city, </div>
             <div className="s21">and tour guides obsessed with showing it.</div>
             <button className='banner-second-btn'>ABOUT</button>
-            <button className='sub'>SUBCRIBE</button>
+            <button className='subc'>SUBCRIBE</button>
         </div>
         </div>
         <div className="banner-third">
